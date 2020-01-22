@@ -9,8 +9,4 @@ class CafesController < ApplicationController
   end
 end
 
-private
 
-def cafe_params
-  params.require(:cafe).permit(:name, :address, :affordability, :rating)
-end
