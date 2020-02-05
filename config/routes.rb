@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-root to: "pages#home"
+root to: "cafes#index"
 
   get 'cafes', to: 'cafes#index'
   get 'about', to: 'pages#about', as: :about
