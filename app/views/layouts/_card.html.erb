@@ -1,0 +1,54 @@
+<!-- <div class="card-container">
+   < @cafes.each do |cafe| %>
+   <div class="row-4">
+    <div class="card">
+      <div class="card-image">
+        <= image_tag "cafe-photos/#{cafe.logo_url}" %>
+      </div>
+      <div class="card-body">
+        <div class="card-title">
+          # <= cafe.name  %>
+          <div class="card-text">
+          <= cafe.address %>
+          <= cafe.affordability %>
+          <= cafe.rating %>
+          < end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ -->
+
+<!-- <div class="card" style="width:400px">
+  <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div> -->
+
+<div class="container mt-4">
+  <div class="row">
+<% @cafes.each do |cafe| %>
+    <div class="col-4 d-flex">
+  <div class="card h-90" style="width: 18rem;">
+    <%= image_tag "cafe-photos/#{cafe.logo_url}", class: "card-img-top" %>
+    <div class="card-body flex-fill">
+      <h5 class="card-title"><%= cafe.name %> </h5>
+      <h6 class="card-subtitle mb-2 text-muted"> <%= cafe.address %></h6>
+      <div class="d-flex">
+        <p class="card-text mr-3"><%= cafe.affordability %> </p>
+      <p class="card-text"> <%= cafe.rating %></p>
+      </div>
+    </div>
+    </div>
+    </div>
+<% end %>
+  </div>
+  </div>
+
+
