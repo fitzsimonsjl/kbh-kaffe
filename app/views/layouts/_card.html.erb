@@ -33,7 +33,7 @@
 
 <div class="container mt-4">
   <div class="row">
-<% @cafes.each do |cafe| %>
+<%= @cafes.each do |cafe| %>
     <div class="col-4 d-flex">
   <div class="card h-90" style="width: 18rem;">
     <%= image_tag "cafe-photos/#{cafe.logo_url}", class: "card-img-top" %>
