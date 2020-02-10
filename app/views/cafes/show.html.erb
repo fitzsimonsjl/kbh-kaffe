@@ -1,5 +1,44 @@
-<h2> <%= @cafe.name %></h2>
-<h4> <%= @cafe.address %></h4>
-<h5> <%= @cafe.rating %></h5>
-<h5> <%= @cafe.affordability %></h5>
 
+<div class="show-container mt-5">
+  <div class="show-banner mb-3">
+    <%= image_tag "cafe-photos/#{@cafe.logo_url}", class: "cafe-banner" %>
+  </div>
+
+<br>
+<br>
+    <div class="cafe-title mb-3" style="justify-content: center;">
+     <h2> <%= @cafe.name %> </h2>
+    </div>
+
+      <div class="row">
+      <div class="info-container">
+         <div class= "col-6 mt-3">
+           <div class="cafe-attributes">
+             <h4> Pris: <%= @cafe.affordability %></h4>
+             <h4> Kategori:</h4>
+             <h4> Adresse: <%= @cafe.address %></h4>
+             <h4> Bedømmelse: <%= @cafe.rating %></h4>
+           </div>
+         </div>
+         <div class= "col-6 mt-3">
+          <div class="cafe-opening-times">
+            <h4> Mandag - 0700 til 2200 </h4>
+            <h4> Tirsdag - 0730 til 2200  </h4>
+            <h4> Onsdag - 0730 til 2200 </h4>
+            <h4> Torsdag - 0730 til 2200 </h4>
+            <h4> Fredag - 0800 til 00 </h4>
+            <h4> Lørdag - 0800 til 00 </h4>
+            <h4> Søndag - 0730 til 2200 </h4>
+          </div>
+         </div>
+
+
+      </div>
+
+        <div class= "col-6 mt-3">
+        <div class="map-container">
+          TESTING
+        </div>
+
+    </div>
+  </div>
