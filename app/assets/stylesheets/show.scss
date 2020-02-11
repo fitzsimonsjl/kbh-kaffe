@@ -1,9 +1,9 @@
-.banner-container {
-  width: 95%;
-  margin-right: 10px;
-  margin-left: 10px;
+// .banner-container {
+//   width: 95%;
+//   margin-right: 10px;
+//   margin-left: 10px;
 
-}
+// }
 
 .show-banner {
   position: relative;
@@ -13,6 +13,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 
 }
 
@@ -28,4 +29,9 @@
   justify-content: center;
   align-text: center;
   margin-left: 50px;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
 }

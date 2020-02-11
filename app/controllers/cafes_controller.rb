@@ -7,6 +7,12 @@ class CafesController < ApplicationController
 
   def show
   @cafe = Cafe.find(params[:id])
+  @cafe_location = Cafe.geocoded
+  @markers = Cafe.map do |cafe|
+    {
+      lat: cafe.latutiude,
+      lng: cafe.longitude
+    }
   end
 
   private
@@ -19,4 +25,5 @@ class CafesController < ApplicationController
  @cafe = Cafe.find(params[:id])
 end
 
+end
 end

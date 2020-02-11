@@ -8,7 +8,7 @@ Cafe.destroy_all
 puts "Creating cafes..."
 
 cafes = [
-  { name: 'The Mudhoney', address: 'Guldbergsgade 22,2200', affordability: '€€', rating: '4.5', logo_url: "the-mudhoney.jpg" },
+  { name: 'The Mudhoney', address: 'Guldbergsgade 22,2200', affordability: '€€', rating: '4.5', logo_url: "the-mudhoney.jpg", latitude: 55.691867, longitude: 12.558005 },
   { name: 'Cafe Fiol', address: 'Fiolstræde 42, 1171', affordability: '€€', rating: '4.3', logo_url: "cafe-fiol.jpg" },
   { name: 'Democratic Coffee', address: 'Krystalgade 15, 1172', affordability: '€€', rating: '4.4', logo_url: "democratic-coffee.jpg" },
   { name: 'Prolog Coffee Bar', address: 'Høkerboderne 16, 1712', affordability: '€€', rating: '4.7', logo_url: "prolog-coffee-bar.jpg" },
