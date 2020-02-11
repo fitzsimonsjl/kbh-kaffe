@@ -9,4 +9,14 @@ class CafesController < ApplicationController
   @cafe = Cafe.find(params[:id])
   end
 
+  private
+
+  def cafe_params
+    params.require(:cafe).permit(:name, :address, :affordability, :rating, :logo_url)
+  end
+
+  def set_cafe
+ @cafe = Cafe.find(params[:id])
+end
+
 end
