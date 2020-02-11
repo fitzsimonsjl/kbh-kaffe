@@ -1,11 +1,19 @@
+.banner-container {
+  width: 95%;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
 .show-banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-  height: 500px;
-  width: 1350 px;
-  margin-top: 40px;
+  width: 100%;
+  height: 450px;
+  background-image: asset-url("cafe-photos/the-mudhoney.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .cafe-title {
