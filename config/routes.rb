@@ -2,5 +2,6 @@ Rails.application.routes.draw do
 
 root to: "cafes#index"
 
-resources :cafes
+get "cafes" , to: 'cafes#index'
+get 'cafes/:id', to: 'cafes#show', as: :cafe
 end

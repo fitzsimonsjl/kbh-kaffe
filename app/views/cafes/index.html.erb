@@ -1,8 +1,10 @@
+
 <div class="container mt-4">
   <div class="row">
 <% @cafes.each do |cafe| %>
-    <div class="col-4 d-flex">
-  <div class="card h-90" style="width: 18rem;">
+  <div class="col-4 d-flex">
+    <div class="card h-90" style="width: 18rem;">
+    <%= link_to cafe_path(cafe), class: "card-link" do  %>
     <%= image_tag "cafe-photos/#{cafe.logo_url}", class: "card-img-top" %>
     <div class="card-body flex-fill">
       <h5 class="card-title"><%= cafe.name %> </h5>
@@ -10,14 +12,15 @@
       <div class="d-flex">
         <p class="card-text mr-3"><%= cafe.affordability %> </p>
       <p class="card-text"> <%= cafe.rating %></p>
-      <%= link_to "Cafe", cafe, class: "btn btn-primary" %>
 
       </div>
     </div>
     </div>
     </div>
-<% end %>
+    <% end %>
+     <% end %>
   </div>
   </div>
+
 
 
