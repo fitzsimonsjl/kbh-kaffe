@@ -1,0 +1,15 @@
+- name: "The Mudhoney"
+  address: "Guldbergsgade 22, 2200"
+  opening_times:
+    monday: "07-2200"
+    tuesday: "0730-2200"
+    wednesday: "0730-2200"
+    thursday: "0730-2200"
+    friday: "0800-00"
+    saturday: "0800-00"
+    sunday: "0730-2200"
+- name: "Cafe Fiol"
+  address: "whatever street, kbh"
+  opening_times:
+    monday: "09-00"
+    tuesday: '09-00'
