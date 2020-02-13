@@ -40,3 +40,22 @@
   display: flex;
   position: relative;
 }
+
+.cafe-attributes {
+  margin-left: 30px;
+}
+
+.cafe-opening-times {
+  margin-left: 30px;
+}
+
+.map-button-pair {
+  display: flex;
+  flex-direction: column;
+}
+
+.take-me-there-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}

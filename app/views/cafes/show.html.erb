@@ -33,6 +33,7 @@
           </div>
          </div>
 
+      <div class="map-button-pair">
       <div
     id="map"
     style="width: 300px;
@@ -41,9 +42,16 @@
     data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
   ></div>
 
+  <div class="take-me-there-btn">
+      <button type="button" class="btn btn-outline-dark" onClick="window.open('https://maps.google.com/?q=<%= @cafe.latitude %>,<%= @cafe.longitude %>');"> Take me there </button>
+        </div>
+        </div>
     </div>
 
-      </div>
+    </div>
+
+
+
 
 
 
