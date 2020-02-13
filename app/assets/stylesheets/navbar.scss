@@ -1,8 +1,14 @@
 .navbar {
   display: flex;
+  border-bottom: solid black 3px;
 }
 
 .nav-buttons {
   display: flex;
   justify-content: flex-end;
+
+}
+
+.btn{
+margin-left:10px;
 }
