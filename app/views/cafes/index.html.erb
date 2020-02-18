@@ -6,11 +6,11 @@
     <div class="card h-90" style="width: 18rem;">
     <%= link_to cafe_path(cafe), class: "card-link" do  %>
     <%= image_tag "cafe-photos/#{cafe.logo_url}", class: "card-img-top" %>
-    <div class="card-body flex-fill">
-      <h5 class="card-title"><%= cafe.name %> </h5>
+    <div class="card-body">
+      <h5 class="card-title"> <%= cafe.name %> </h5>
       <h6 class="card-subtitle mb-2 text-muted"> <%= cafe.address %></h6>
       <div class="d-flex">
-        <p class="card-text mr-3"><%= cafe.affordability %> </p>
+        <p class="card-text mr-3"> <%= cafe.affordability %> </p>
       <p class="card-text"> <%= cafe.rating %></p>
 
       </div>
