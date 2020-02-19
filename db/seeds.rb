@@ -26,6 +26,7 @@ cafes.each do |cafe|
   Cafe.create!(cafe)
 end
 
+require 'yaml'
 # seed_file = Rails.root.join('db', 'seeds', 'cafes.yml')
 # config = YAML::load_file(seed_file)
 # Cafe.create!(config)

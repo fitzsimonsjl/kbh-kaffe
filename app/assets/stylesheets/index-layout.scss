@@ -1,20 +1,22 @@
-a .card-link {
+a.card-link {
   text-decoration: none !important;
   font: black;
-}
-
-.card {
-  border-color: black;
-  text-decoration: none !important;
+  .card-body  {
+    color: black;
   }
-
-.card-title  {
-  text-decoration: none !important;
-  font: black !important;
-}
-
-.card-text {
-  text-decoration: none !important;
-  font: black;
+  .fa-heart {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    font-size: 24px;
+    color: #ff8484;
+  }
+  .card-text {
+    position: relative;
+    bottom: -20px;
+  }
+  .card-favourite {
+    z-index: 5000;
+  }
 }
 
