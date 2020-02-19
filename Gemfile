@@ -28,6 +28,8 @@ gem 'dotenv'
 
 gem 'devise'
 
+gem 'acts_as_favoritor'
+
 gem 'geocoder'
 
 # Reduces boot times through caching; required in config/boot.rb
