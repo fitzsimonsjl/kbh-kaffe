@@ -1,36 +1,4 @@
-.footer-container {
-  height: 100px;
-  width: 100%;
-  background-color: #593939;
-  justify-content: center;
-  position: fixed;
-  bottom: 0;
-}
-
-.footer-info {
+.container {
   display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-
-  p {
-    color: white;
-    justify-content: space-between;
-    font-size: 18px;
-    padding-top: 15px;
-  }
-
-  .footer-logos {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-  .fa-envelope .fa-github .fa-linkedin {
-    color: white;
-    display: flex;
-    position: relative;
-  }
+  justify-content: center;  
 }
