@@ -10,13 +10,11 @@ a.card-link {
     bottom: 20px;
     font-size: 24px;
     color: #ff8484;
+    z-index: 1;
   }
   .card-text {
     position: relative;
     bottom: -20px;
-  }
-  .card-favourite {
-    z-index: 5000;
-  }
+}
 }
 
