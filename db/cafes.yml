@@ -166,6 +166,20 @@
     saturday: "Closed"
     sunday: "Closed"
 
+- name: "Coffee Collective (Jægersborggade)"
+  address: "Jæggersborggade 57, 2200"
+  affordability: "€€€"
+  rating: "4.5"
+  logo_url: "republikken.jpg"
+  opening_times:
+    monday: "0800-1700"
+    tuesday: "0800-1700"
+    wednesday: "0800-1700"
+    thursday: "0800-1700"
+    friday: "0800-1700"
+    saturday: "Closed"
+    sunday: "Closed"
+
 
 
 
