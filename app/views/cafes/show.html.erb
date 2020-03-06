@@ -34,14 +34,19 @@
             <h5> Sunday - 0730 til 2200 </h5>
           </div>
          </div>
-
+    <div class="btn-and-map">
       <div
     id="map"
-    style="width: 300px;
+    style="width: 370px;
     height: 300px;"
     data-markers="<%= @markers.to_json %>"
     data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
   ></div>
+  <div class="map-button mt-3">
+  <div class="btn btn-outline-dark"> Take me there!
+  </div>
+  </div>
+  </div>
 
     </div>
  </div>
