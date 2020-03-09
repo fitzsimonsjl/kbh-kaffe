@@ -882,6 +882,167 @@
     sunday: "1000-1700"
      category: "Relax"
 
+- name: "Mormors"
+  address: "Bredgade 45, 1260"
+  affordability: "€€"
+  rating: "4.3"
+  logo_url: "mormors.jpg"
+  opening_times:
+    monday: "0830-1700"
+    tuesday: "0830-1700"
+    wednesday: "0830-1700"
+    thursday: "0830-1700"
+    friday: "0830-1700"
+    saturday: "1000-1700"
+    sunday: "1000-1700"
+     category: "Friends"
+
+- name: "Conditori La Glace"
+  address: "Skoubogade 3, 1158"
+  affordability: "€€€"
+  rating: "4.4"
+  logo_url: "conditori-la-glace.jpg"
+  opening_times:
+    monday: "0830-1800"
+    tuesday: "0830-1800"
+    wednesday: "0830-1800"
+    thursday: "0830-1800"
+    friday: "0830-1800"
+    saturday: "0900-1800"
+    sunday: "1000-1800"
+     category: "Friends"
+
+- name: "Buzz Kaffebar"
+  address: "Sankt Peders Stræde 31, 1453"
+  affordability: "€€"
+  rating: "4.4"
+  logo_url: "buzz-kaffebar.jpg"
+  opening_times:
+    monday: "0800-1800"
+    tuesday: "0800-1800"
+    wednesday: "0800-1800"
+    thursday: "0800-1800"
+    friday: "0800-1800"
+    saturday: "0900-1800"
+    sunday: "0900-1800"
+     category: "Friends", "Relax", "Study"
+
+- name: "Roast Coffee (Studie)"
+  address: "Studiestræde 16, 1455"
+  affordability: "€€"
+  rating: "5.0"
+  logo_url: "roast-coffee-studie.jpg"
+  opening_times:
+    monday: "0730-1700"
+    tuesday: "0730-1700"
+    wednesday: "0730-1700"
+    thursday: "0730-1700"
+    friday: "0730-1700"
+    saturday: "1000-1600"
+    sunday: "Closed"
+     category: "Relax", "Study"
+
+- name: "Roast Coffee (Vestmannagade)"
+  address: "Vestmannagade 4, 2300"
+  affordability: "€€"
+  rating: "4.8"
+  logo_url: "roast-coffee-vestmannagade.jpg"
+  opening_times:
+    monday: "0730-1700"
+    tuesday: "0730-1700"
+    wednesday: "0730-1700"
+    thursday: "0730-1700"
+    friday: "0730-1700"
+    saturday: "1000-1600"
+    sunday: "1000-1600"
+     category: "Relax", "Study"
+
+- name: "Kafeteria"
+  address: "Statens Museum for Kunst 48-50, Sølvgade, 1307"
+  affordability: "€€"
+  rating: "3.2"
+  logo_url: "kafeteria.jpg"
+  opening_times:
+    monday: "Closed"
+    tuesday: "1000-1800"
+    wednesday: "1000-2000"
+    thursday: "1000-1800"
+    friday: "1000-1800"
+    saturday: "1000-1800"
+    sunday: "1000-1800"
+     category: "Relax", "Friends"
+
+- name: "Café Atelier September"
+  address: "Gothersgade 30, 1123"
+  affordability: "€€"
+  rating: "4.3"
+  logo_url: "cafe-atelier-september.jpg"
+  opening_times:
+    monday: "0730-1800"
+    tuesday: "0730-1800"
+    wednesday: "0730-1800"
+    thursday: "0730-1800"
+    friday: "0730-1800"
+    saturday: "0900-1700"
+    sunday: "0900-1700"
+     category: "Relax", "Friends"
+
+- name: "Cafe Blå"
+  address: "Blågardsgade 17, 2200"
+  affordability: "€€"
+  rating: "4.6"
+  logo_url: "cafe-blå.jpg"
+  opening_times:
+    monday: "0800-2130"
+    tuesday: "0800-2130"
+    wednesday: "0800-2130"
+    thursday: "0800-2130"
+    friday: "0800-2130"
+    saturday: "0900-2130"
+    sunday: "0900-2130"
+     category: "Relax", "Friends", "Study"
+
+- name: "Cafe Oscar"
+  address: "Bredgade 58, 1260"
+  affordability: "€€"
+  rating: "4.0"
+  logo_url: "cafe-oscar.jpg"
+  opening_times:
+    monday: "1000-2300"
+    tuesday: "1000-2300"
+    wednesday: "1000-2300"
+    thursday: "1000-2300"
+    friday: "1000-2300"
+    saturday: "1000-2300"
+    sunday: "1000-2300"
+     category: "Relax", "Friends"
+
+- name: "Wulf & Konstali (Sankt Hans Torv)"
+  address: "Sankt Hans Torv 30, 2200"
+  affordability: "€€"
+  rating: "4.1"
+  logo_url: "wulf-konstali-sankt-hans-torv.jpg"
+  opening_times:
+    monday: "0700-1900"
+    tuesday: "0700-1900"
+    wednesday: "0700-1900"
+    thursday: "0700-1900"
+    friday: "0700-1900"
+    saturday: "0700-1800"
+    sunday: "0700-1800"
+     category: "Relax", "Friends", "Study"
+
+     
+
+
+
+
+
+
+
+
+
+
 
 
 
