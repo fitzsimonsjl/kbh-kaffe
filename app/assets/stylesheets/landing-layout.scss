@@ -1,54 +1,53 @@
 .landing-page-container {
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 
-	.landing-title {
-		display: flex;
-		position: relative;
-		justify-content: center;
-		font: 50px bold;
-	}
+  .landing-title {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font: 50px bold;
+  }
 
-	.landing-intro {
-		display: flex;
-		position: relative;
-		justify-content: center;
-		font: 20px;
-	}
+  .landing-intro {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font: 20px;
+  }
 
-	.landing-lead-text {
-		display: flex;
-		position: relative;
-		justify-content: center;
-		font: 20px;
-	}
+  .landing-lead-text {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font: 20px;
+  }
 
-	.landing-card-container {
-		display: flex;
-		flex-direction: row;
-		position: relative;
-		justify-content: center;
-	}
+  .landing-card-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+  }
 
-	.card {
-		border-radius: 10px;
-		border-color: black; 
-	}
+  .card {
+    border-radius: 10px;
+    border-color: black;
+  }
 
-	.card-body {
-		display: flex;
-		align-text: center;
-		justify-content: center;
-	}
+  .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .all-cafes {
-	display: flex;
-	flex-direction: row;
-	position: relative;
-	justify-content: center;
-
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
 }
