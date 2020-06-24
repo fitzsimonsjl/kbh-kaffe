@@ -1,4 +1,4 @@
-# KBH-Kaffe - Somewhere nice to find your next cup of coffee
+# KBH Kaffe - Somewhere nice to find your next cup of coffee
 
 Not always wanting to settle for Espresso House or Baresso, I decided to put a little something together focusing on independent cafes. 
 
