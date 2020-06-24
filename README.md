@@ -8,7 +8,7 @@ Progress has sort of stalled at the moment, but I'm getting things back up and r
 
 ### Gettting Things Running
 
-To get things running, clone this repository, then run `bundle`, and `yarn`. You'll need ruby version 2.6.5.
+To get things running, clone this repository, then run `bundle`, and `yarn`. You'll need ruby version 2.6.5. If you're using rbenv, you can simply run `rbenv install 2.6.5`
 
 One that's done, run `rails db:setup` to initialise the database, then finally run `rails s` to start serving. Visit `localhost:3000` and feel free to poke around.
 
